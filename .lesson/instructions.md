@@ -1,27 +1,10 @@
-# Instructions  
+## Logistic regression
 
-  ** this file should contain student lesson instructions **
+### Introduction
 
-  _ students will see these instructions in a read-only workspace tab _
+Linear regression can be generalized to handle dependent variables that are not numerical. If the dependent variable is boolean, the generalized model is called __logistic regression__. If the dependent variable is an integer count, it’s called __Poisson regression__.
 
-  ## Steps
-  1. 
-  2. 
-  3. 
+As an example of logistic regression, suppose a friend of yours is pregnant and you want to predict whether the baby is a boy or a girl. You could use data from the NSFG to find factors that affect the “sex ratio” (the probability of having a boy).
 
-  Use [Markdown](https://gist.github.com/cuonggt/9b7d08a597b167299f0d) to format your instructions.
+If you encode the dependent variable numerically, for example 0 for a girl and 1 for a boy, in theory you could apply ordinary least squares, but not in practice:
 
-  For example, here is a code block in python3
-```python
-def hello_world():
-  print("hello world!")
-```
-
-
-  Include an image by placing it in the `assets` folder.
-
-  For example, here is the Replit logo:
-
-  ![alt text](assets/logo.png)
-  
-  
