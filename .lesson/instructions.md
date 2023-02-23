@@ -42,7 +42,7 @@ p = o / (o + 1)
 
 ### Estimating parameters
 
-Unlike linear regression, logistic regression does not have a closed form solu- tion, so it is solved by guessing an initial solution and improving it iteratively.
+Unlike linear regression, logistic regression does not have a closed form solution, so it is solved by guessing an initial solution and improving it iteratively.
 
 The usual goal is to find the maximum-likelihood estimate (MLE), which is the set of parameters that maximizes the likelihood of the data.
 
